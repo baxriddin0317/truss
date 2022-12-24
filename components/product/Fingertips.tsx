@@ -70,7 +70,7 @@ const Fingertips = () => {
                         className="mySwiper"
                     >
                         {blockprops.map((item: IBlockItem) => (
-                            <SwiperSlide>
+                            <SwiperSlide key={item.img}>
                                 <Block theme={true} blockprops={item} />
                             </SwiperSlide>
                         ))}

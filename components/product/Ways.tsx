@@ -117,7 +117,7 @@ const Ways = () => {
 
                 <div className="w-full mx-auto xl:px-24 flex flex-col gap-y-32 mb-24">
                     {features.map((item: IBlockItem) => (
-                        <Block theme={true} blockprops={item} />
+                        <Block key={item.img} theme={true} blockprops={item} />
                     ))}
                 </div> 
             </div>

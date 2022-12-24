@@ -16,7 +16,7 @@ const BoxText: FC<IBoxText> = ({boxprops}) => {
         {title}
         </h2> 
         {texts.map(text => (
-            <p className='mb-6 text-brand-blue-black text-lg'>
+            <p key={text} className='mb-6 text-brand-blue-black text-lg'>
                 {text}
             </p>
         ))}               

@@ -126,9 +126,9 @@ export default function PricingTab() {
                                   'grid grid-cols-2 gap-5'
                                 )}
                             >
-                                {posts.map((post) => (
+                                {posts.map((post, idx) => (
                                   // <div></div>
-                                  <TabItem tabItem={post} />
+                                  <TabItem key={idx} tabItem={post} />
                                 ))}
                             </Tab.Panel>
                         ))}

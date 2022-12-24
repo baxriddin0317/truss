@@ -73,7 +73,7 @@ const Features = () => {
 
                 <div className="w-full mx-auto xl:px-24 flex flex-col gap-y-44 mb-24">
                     {features.map((item: IBlockItem) => (
-                        <Block theme={false} blockprops={item} />
+                        <Block key={item.img} theme={false} blockprops={item} />
                     ))}
                 </div>   
 
