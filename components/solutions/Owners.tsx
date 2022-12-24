@@ -1,12 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 import Block from '../Block'
-import Circle from '../product/Circle'
 import { IBlockItem } from '../product/Fingertips'
 import { BsArrowRight } from "react-icons/bs"
 import Bell from '../icons/Bell'
 import Puppy from '../icons/Puppy'
-import Calendar from '../icons/calendar'
+import Calendar from '../icons/Calendar'
 import CardList from '../icons/BsCardList'
 
 const owners = [

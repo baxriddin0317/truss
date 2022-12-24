@@ -4,7 +4,7 @@ import Btn from '../buttons/Btn';
 import Image from 'next/image';
 import Bell from '../icons/Bell';
 import Puppy from '../icons/Puppy';
-import Calendar from '../icons/calendar';
+import Calendar from '../icons/Calendar';
 import CardList from '../icons/BsCardList';
 import { IBlockItem } from '../product/Fingertips';
 
